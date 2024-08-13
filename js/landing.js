@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             sidebar.style.transform = "translateX(0%)";
         }
-        horizontalbar.style.display = "none";
+        horizontalbar.style.transform= "none";
     }
 
     handleNavClick();
