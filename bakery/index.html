@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Crust</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="css/landing.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="js/landing.js"></script>
+</head>
+<body>
+    <!--Main Section-->
+    <section>
+        <div class="container" id="home">
+            <nav>
+                <h1>Golden Crust</h1>
+                <!-- <img src="images/logo.png"> -->
+                <button class="sidebar-toggle" onclick="showSideBar()"><i class="fa fa-bars"></i></button>
+                <ul class="sidebar" id="sidebar">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Our Products</a></li>
+                    <li><a href="#about-us">About Us</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#address">Address</a></li>
+                </ul>
+                <ul class="horizontal-bar" id="horizontalbar">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#products">Our Products</a></li>
+                    <li><a href="#about-us">About Us</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#address">Address</a></li>
+                </ul>
+            </nav>
+            <div class="content">
+                <h1>Freshly Baked Delights Await You!</h1>
+                <p>Indulge in a world of delightful treats and freshly baked goodness</p>
+                <button class="menu-btn"><a href="#products">View Products</a></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <div class="about-us general" id="about-us">
+        <div class="about-content">
+            <img src="images/about.jpeg" alt="About Us">
+            <div class="text-content">
+                <h1>About Us</h1>
+                <hr>
+                <p>Welcome to Golden Crust Bakery! We specialize in crafting delicious, high-quality baked goods using the finest ingredients. 
+                    From classic breads to exquisite cakes and pastries, our skilled bakers bring passion and expertise to every item. 
+                    Our commitment to quality and customer satisfaction ensures a delightful experience with each visit. 
+                    Thank you for choosing Golden Crust Bakery—we look forward to serving you!
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Products Section -->
+    <div class="menu general" id="products">
+        <h1>Our Products</h1>
+        <div class="products">
+            <div class="category">
+                <div class="image-container">
+                    <img src="images/bread.jpeg" alt="Breads">
+                    <h2>Breads</h2>
+                </div>
+            </div>
+            <div class="category">
+                <div class="image-container">
+                    <img src="images/cake.jpeg" alt="Cakes">
+                    <h2>Cakes</h2>
+                </div>
+            </div>
+            <div class="category">
+                <div class="image-container">
+                    <img src="images/pastery.jpeg" alt="Pastries">
+                    <h2>Pastries</h2>
+                </div>
+            </div>
+            <div class="category">
+                <div class="image-container">
+                    <img src="images/cookies.jpeg" alt="Cookies">
+                    <h2>Cookies</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Testimonials Section -->
+    <div class="testimonial-slider general">
+        <div class="testimonial-slider-heading">
+            <h1>Testimonials</h1>
+        <hr>
+        </div>
+        <div class="testimonial-slider-content">
+            <div class="testimonial-slide">
+                <h4>Jane Doe</h4>
+                <div class="stars">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9734;</span>
+                </div>
+                <p>"The best bakery in town! Everything is delicious and made with love."</p>
+            </div>
+            <div class="testimonial-slide">
+                <h4>John Smith</h4>
+                <div class="stars">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9734;</span>
+                </div>
+                <p>"Amazing cakes and pastries. Highly recommend their chocolate cake!"</p>    
+            </div>
+            <div class="testimonial-slide">
+                <h4>Emily Johnson</h4>
+                <div class="stars">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9734;</span>
+                </div>
+                <p>"A delightful experience every time. The fresh bread is a must-try!"</p>    
+            </div>
+        </div>
+    </div>
+    
+    <!-- Address Section -->
+    <div class="address general" id="address">
+        <h1>Address</h1>
+        <hr>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14159960.757207863!2d58.349829680790755!3d29.950055326202452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38db52d2f8fd751f%3A0x46b7a1f7e614925c!2sPakistan!5e0!3m2!1sen!2s!4v1723448228485!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <!--Footer-->
+    <footer>
+        <div class="footer">
+            <div class="footer-social-links">
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-web-links">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Our Products</a></li>
+                    <li><a href="#about-us">About Us</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#address">Address</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <div><i class="fa-regular fa-copyright"></i></div>
+            <p>Copyright 2024. All Rights Reserved </p>
+        </div>
+    </footer>
+    </body>
+</html>
